@@ -1,5 +1,5 @@
 SELECT 
-PunoIme = Ime + '' + Prezime, Adresa = a.Broj +''+ a.Ulica,
+PunoIme = Prezime + '' + Ime, Adresa = a.Broj +''+ a.Ulica,
 NazivFakulteta = f.Naziv
 FROM
 JOIN Omega.Adresa a ON a.ID = s.AdresaID
