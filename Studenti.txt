@@ -3,4 +3,4 @@ PunoIme = Ime + '' + Prezime, Adresa = a.Broj +''+ a.Ulica,
 NazivFakulteta = f.NazivFakulteta
 FROM
 JOIN Omega.Adresa a ON a.ID = s.AdresaID
-LEFT JOIN Onemga.Fakultet f ON f.ID = s.ID
+JOIN Onemga.Fakultet f ON f.ID = s.ID
